@@ -1,0 +1,26 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url("./Assets/BG.jpg");
+    text-align: center;
+    background-size: cover;
+}
+
+#board{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board > div{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    width: 180px;
+    height: 180px;
+    align-content: center;
+    background: url(./Assets/Hole.png);
+    background-size: cover;
+    gap: 20px;
+}
