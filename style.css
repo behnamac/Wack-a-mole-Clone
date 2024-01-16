@@ -24,3 +24,10 @@ body{
     background-size: cover;
     gap: 20px;
 }
+
+#board div img{
+
+    width: 160px;
+    height: 160px;
+    z-index: 2;
+}
